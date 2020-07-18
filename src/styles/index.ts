@@ -1,21 +1,25 @@
 export const STYLES = {
-    CARD_BACKLOG: {
-      backgroundColor: "#545454",
-      color: "white",
-      padding: "24px",
-      marginBottom: "16px",
+    CARD_BACKLOG:{
+      borderColor: "#f23c3c",
+      backgroundColor: '#ffffff',
+      color: "#f23c3c",
     },
     CARD_COMPLETE: {
-      backgroundColor: "#4b62e5",
-      color: "white",
-      padding: "24px",
-      marginBottom: "16px",
+      borderColor: "#1fa6f4",
+      backgroundColor: '#ffffff',
+      color: "#1fa6f4",
     },
     CARD_IN_PROGRESS: {
-      backgroundColor: "#1bb77e",
-      color: "white",
-      padding: "24px",
-      marginBottom: "16px",
+      borderColor: "#2cba67",
+      backgroundColor: '#ffffff',
+      color: "#2cba67",
+    },
+    CARD_BASE: {
+      padding: '24px',
+      marginBottom: '16px',
+      borderWidth: '2px',
+      borderStyle: "solid",
+      borderRadius: '4px'
     },
     CARD_HEADER: {
       margin: "0 0 12px 0",
@@ -25,9 +29,9 @@ export const STYLES = {
     },
     COLUMN: {
       width: "300px",
-      background: "#f2f2f2",
       padding: "16px",
       marginRight: "16px",
+      overflow: 'hidden'
     },
     CONTAINER: {
       maxWidth: "1000px",
